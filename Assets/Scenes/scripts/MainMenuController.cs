@@ -12,7 +12,7 @@ public class MainMenuController : MonoBehaviour
     }
     public void Option()
     {
-        OptionPane1.alpha = 1;
+        OptionPane1.alpha = 2;
         OptionPane1.blocksRaycasts = true;
     }
     public void Back()

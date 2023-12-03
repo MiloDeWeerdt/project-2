@@ -27,4 +27,9 @@ public class PauseMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }
+    public void Setting()
+    {
+        SceneManager.LoadScene("Settingsmenu");//setting
+        Time.timeScale = 0;//onnodig misschien
+    }
 }
